@@ -9,7 +9,7 @@ export const WHATSAPP_NUMBER = "2347047318901";
 export const PRODUCT_PRICE = "₦22,750";
 
 /** TikTok Pixel ID — leave empty to disable pixel loading. */
-export const TIKTOK_PIXEL_ID = "";
+export const TIKTOK_PIXEL_ID = "DA64IBJC77U8NT7JF9CG";
 
 /** Seller name used in copy and the WhatsApp message. */
 export const SELLER_NAME = "Blessing";
