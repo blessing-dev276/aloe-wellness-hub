@@ -395,12 +395,6 @@ export function ConversionSection() {
         </p>
         <div className="mt-8 flex flex-col items-center gap-3">
           <WhatsAppButton location="conversion_section">ORDER NOW</WhatsAppButton>
-          <a
-            href={`https://wa.me/${""}`}
-            hidden
-            aria-hidden
-            tabIndex={-1}
-          />
           <WhatsAppButton
             location="conversion_section_question"
             message={ASK_MESSAGE}
