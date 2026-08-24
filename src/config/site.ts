@@ -30,11 +30,11 @@ export const PRODUCT = {
 } as const;
 
 /** Replace these with your own images at any time. */
-import productImage from "@/assets/aloe-vera-plus.png.asset.json";
-import bottleImage from "@/assets/aloe-vera-bottle.png.asset.json";
+import productImage from "@/assets/aloe-vera-plus.png";
+import bottleImage from "@/assets/aloevera.png";
 
-export const PRODUCT_IMAGE = productImage.url;
-export const PRODUCT_IMAGE_ALT = bottleImage.url;
+export const PRODUCT_IMAGE = productImage;
+export const PRODUCT_IMAGE_ALT = bottleImage;
 
 /** Set to true once real, permission-based testimonials are available. */
 export const TESTIMONIALS_ENABLED = false;
