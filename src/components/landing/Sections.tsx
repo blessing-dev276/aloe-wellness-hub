@@ -31,7 +31,11 @@ export function StickyCta() {
 export function Hero() {
   useEffect(() => {
     track("page_view", { page: "aloe_vera_plus_landing" });
-    track("product_view", { product: PRODUCT.name, code: PRODUCT.code });
+    track("product_view", {
+      content_type: "product",
+      content_id: PRODUCT.code,
+      content_name: PRODUCT.name,
+    });
   }, []);
 
   return (
